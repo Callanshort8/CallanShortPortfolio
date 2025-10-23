@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Callan Short</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -11,14 +12,39 @@
       <h1> Coding Projects</h1>
       <nav>
         <a href="index.html">Home</a> |
-        <a href="" target="">Download CV</a>
+        <a href="Callan_short_CV.pdf" target="_blank" rel="noopener">Download CV</a>
       </nav>
     </header>
     
     <section id="Projects">
       <article>
-        <h2>BackChat Social Media Project</h2>
-        <p><strong>Technologies:</strong> Java</p>
+        <h2>BackChat Social Media Project (Java)</h2>
+        <p><strong>Overview:</strong> An early iteration of a user to user social media app, including, messaging, mutual friends, friend of friend's viewing, recommendations based on users and filters for finding friends. java serialisation was used for Data persist.</p>
+        <p><strong>Technologies used:</strong></p>
+        <ul>
+          <li><strong>Languages:</Strong> Java</li>
+          <li><strong>Frameworks:</strong> Standard Java Library(Serialization, I/0, collections)</li>
+          <li><strong>Tools:</strong> VScode, Github, JDK 17+</li>
+        </ul>
+        <details>
+          <summary>Highlights</summary>
+          <ul>
+            <li>Code model: <code>User</code>, <code>BackChatMain</code>, <code>BackChat</code>, <code>Message</code></li>
+            <li>Contains, FOAF viewing with mutuals signified, Mutual Friendships, filering by home/work - expandable into any filters of users info.</li>
+            <li>Menu-driven CLI with input validation and error handling </li>
+            <li>Persistence to its network file and global rebuild on load</li>
+          </ul>
+        </details>
+
+
+        <p>
+          <a href="https://github.com/Callanshort8/BackChat"
+            target="_blank"
+            rel="noopener"
+            class="button">
+            View on GitHub
+          </a>
+        </p>
       </article>
 
        <article>
