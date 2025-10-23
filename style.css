@@ -48,4 +48,11 @@ h1, h2 {
   background: #274156;
 }
 
+title {
+  background: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+  
   
