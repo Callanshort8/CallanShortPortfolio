@@ -32,5 +32,20 @@ h1, h2 {
   color: #1e2a38;
 }
 
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #1e2a38;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #274156;
+}
 
   
